@@ -4,6 +4,11 @@ import "./App.css";
 function App() {
   const [counter, setCounter] = useState(0);
   const [enable, setEnable] = useState(false);
+
+  // implement the 2 fucntions
+  function toggle() {}
+  function reset() {}
+
   return (
     <div className="App">
       <h1>{counter}</h1>
